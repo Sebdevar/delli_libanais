@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "plugins": ["react", "react-hooks", "jsx-a11y", "import"],
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
