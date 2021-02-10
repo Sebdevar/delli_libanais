@@ -11,7 +11,11 @@ const App = () => (
 
 const AppContainer = styled.div`
   text-align: center;
-  background-image: linear-gradient(to right, #d35400, #ff7b00 30%, #ff7b00 70%, #d35400);
+  background-image: linear-gradient(to right,
+    #d35400,
+    #f07400 30%,
+    #f07400 70%,
+    #d35400);
 `;
 
 export default App;

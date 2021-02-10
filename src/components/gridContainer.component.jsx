@@ -2,12 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Banner from './banner.component';
+import Address from './address.component';
+import DeliveryLinks from './deliveryLinks.components';
 
 const grid = () => (
   <GridContainer>
     <Banner />
-    <Address>Address</Address>
-    <DeliveryServices>Randomized Delivery Services</DeliveryServices>
+    <Address />
+    <DeliveryLinks />
     <GoogleStuff>Google Stuff</GoogleStuff>
     <Menu>Super Duper Menu de la Mort qui Tue</Menu>
     <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
@@ -37,26 +39,6 @@ const GridContainer = styled.div`
   margin: 0 auto;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-auto-rows: 240px;
-`;
-
-const Address = styled.div`
-display:flex;
-align-items:center;
-justify-content: center;
-
-color: white;
-background-color: #333;
-`;
-
-const DeliveryServices = styled.div`
-display:flex;
-align-items:center;
-justify-content: center;
-
-color: white;
-background-color: #555;
-grid-column-start: 2;
-grid-column-end: 5;
 `;
 
 const GoogleStuff = styled.div`
