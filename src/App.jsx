@@ -2,8 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import logo from './logo.svg';
 
+import GridContainer from './components/gridContainer.component';
+
 const App = () => (
   <AppContainer>
+    <GridContainer />
     <Header>
       <Logo src={logo} alt="logo" />
       <p>
@@ -11,7 +14,7 @@ const App = () => (
         {' '}
         <code>src/App.js</code>
         {' '}
-        and save to reload.
+        and save to reload patate.
       </p>
       <Link
         href="https://reactjs.org"
