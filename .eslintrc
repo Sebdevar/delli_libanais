@@ -3,9 +3,17 @@
     "airbnb",
     "airbnb/hooks"
   ],
-  "plugins": ["react", "react-hooks", "jsx-a11y", "import"],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "import"
+  ],
   "env": {
     "browser": true,
     "node": true
+  },
+  "rules": {
+    "linebreak-style": 0
   }
 }
