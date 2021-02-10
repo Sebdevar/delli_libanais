@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Banner from './banner.component';
+
 const grid = () => (
   <GridContainer>
-    <Banner>Banner</Banner>
+    <Banner />
     <Address>Address</Address>
     <DeliveryServices>Randomized Delivery Services</DeliveryServices>
     <GoogleStuff>Google Stuff</GoogleStuff>
@@ -23,28 +25,18 @@ const grid = () => (
       <br />
       Very Quality! |-| ~(￣▽￣)~ |-| Incredible!
     </Comments>
-    <Test>test</Test>
+    <Footer>
+      Footer
+    </Footer>
   </GridContainer>
 );
 
 const GridContainer = styled.div`
   display: grid;
-  width: 70vw;
+  width: 1200px;
   margin: 0 auto;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-auto-rows: 14vw;
-`;
-
-const Banner = styled.div`
-display:flex;
-align-items:center;
-justify-content: center;
-
-color: white;
-vertical-align: center;
-background-color: #111;
-grid-column-start: 1;
-grid-column-end: 6;
+  grid-auto-rows: 240px;
 `;
 
 const Address = styled.div`
@@ -109,13 +101,15 @@ grid-column-start: 1;
 grid-column-end: 6;
 `;
 
-const Test = styled.div`
+const Footer = styled.div`
 display:flex;
 align-items:center;
 justify-content: center;
 
 color: red;
 background-color: black;
+grid-column-start: 1;
+grid-column-end: 6;
 `;
 
 export default grid;
