@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Banner from './banner.component';
-import Address from './address.component';
-import DeliveryLinks from './deliveryLinks.components';
+import Banner from './GridElements/banner.component';
+import Address from './GridElements/address.component';
+import DeliveryLinks from './GridElements/deliveryLinks.components';
+import Menu from './GridElements/menu.component';
 import GoogleScore from './googleScore.component';
 
 const grid = () => (
@@ -12,7 +13,7 @@ const grid = () => (
     <Address />
     <DeliveryLinks />
     <GoogleScore>Google Stuff</GoogleScore>
-    <Menu>Super Duper Menu de la Mort qui Tue</Menu>
+    <Menu />
     <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
     <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
     <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
@@ -48,18 +49,6 @@ const Food = styled.div`
   justify-content: center;
   color: gold;
   background-color: #777;
-`;
-
-const Menu = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: #999;
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 7;
 `;
 
 const Comments = styled.div`
