@@ -22,6 +22,7 @@ const StyledIframe = styled.iframe`
   &:hover{
     transform: scale(1.03);
     transition: 0.2s all ease-out;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   }
 `;
 
