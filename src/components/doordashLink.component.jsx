@@ -28,21 +28,18 @@ const deliveryLinks = () => (
         </clipPath>
       </defs>
     </svg>
-    <DoordashLogo>Order Food Delivery with DoorDash</DoordashLogo>
   </DoordashLink>
 );
-
-const DoordashLogo = styled.div`
-  position: relative;
-  width:100%;
-  height:100%;
-  margin: 0px auto;
-  color:transparent;
-`;
 
 const DoordashLink = styled.a`
   text-decoration: none;
   background-color:#EB1700;
+
+  transition: 0.2s all ease-out;
+  &:hover{
+    transform: scale(1.03);
+    transition: 0.2s all ease-out;
+  }
 `;
 
 export default deliveryLinks;
