@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 const GooglePlacesContext = createContext(undefined);
 
 const initialState = {
-  rating: 5,
+  rating: 4.8,
   reviews: [],
-  reviewsCount: 500,
+  reviewsCount: 679,
 };
 
 const GooglePlacesProvider = ({ children }) => {
