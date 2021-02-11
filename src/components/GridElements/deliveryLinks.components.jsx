@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import DoordashLink from './doordashLink.component';
-import UberEatsLink from './uberEatsLink.component';
-import SkipLink from './skipLink.component';
+import DoordashLink from '../Links/doordashLink.component';
+import UberEatsLink from '../Links/uberEatsLink.component';
+import SkipLink from '../Links/skipLink.component';
 
 const deliveryLinks = () => (
   <DeliveryLinks>

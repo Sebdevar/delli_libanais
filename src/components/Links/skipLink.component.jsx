@@ -1,18 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import uberEatsLogo from '../images/UberEatsLogo.webp';
+import skipLogo from '../../images/SkipLogo.webp';
 
-const uberEatsURL = 'https://www.ubereats.com/ca';
+const skipURL = 'https://www.skipthedishes.com';
 
 const deliveryLinks = () => (
   <Link
-    href={uberEatsURL}
+    href={skipURL}
     target="_blank"
-    alt="Order Food Delivery with UberEats"
-    title="Order Food Delivery with UberEats"
+    alt="Order Food Delivery with Skip the Dishes"
+    title="Order Food Delivery with Skip the Dishes"
   >
-    <Image src={uberEatsLogo} alt="Commander avec UberEats" />
+    <Image src={skipLogo} alt="Commander avec Skip the Dishes" />
   </Link>
 );
 
@@ -22,7 +22,6 @@ const Image = styled.img`
 
 const Link = styled.a`
   text-decoration: none;
-  background-color:rgb(19,34,40);
   transition: 0.2s all ease-out;
   &:hover{
     transform: scale(1.03);
