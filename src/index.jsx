@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import GooglePlacesProvider from './contexts/GooglePlaces.context';
+import GoogleInfosProvider from './contexts/googleInfos.context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <GooglePlacesProvider>
+    <GoogleInfosProvider>
       <App />
-    </GooglePlacesProvider>
+    </GoogleInfosProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 );

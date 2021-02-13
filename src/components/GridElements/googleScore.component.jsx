@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useGooglePlaces } from '../contexts/GooglePlaces.context';
+import { useGoogleInfos } from '../../contexts/googleInfos.context';
 
 const GoogleScore = () => {
-  const googleInfos = useGooglePlaces();
+  const googleInfos = useGoogleInfos();
 
   return (
     <ScoreContainer>
