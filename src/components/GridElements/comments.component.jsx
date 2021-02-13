@@ -29,7 +29,6 @@ const CommentsCarousel = () => {
   )), [state.reviews]);
 
   const startSwipe = (event) => {
-    event.preventDefault();
     actions.startSwipe(event);
   };
 
@@ -41,10 +40,10 @@ const CommentsCarousel = () => {
 
   const endSwipe = (event) => {
     event.preventDefault();
-    if (state.offsetX > 375) {
+    if (state.offsetX >= 360) {
       actions.previousReview();
     }
-    if (state.offsetX < -375) {
+    if (state.offsetX <= -360) {
       actions.nextReview();
     }
     actions.endSwipe(event);
