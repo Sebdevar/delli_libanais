@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.50bf9744.chunk.css",
-    "main.js": "/static/js/main.90969e4b.chunk.js",
-    "main.js.map": "/static/js/main.90969e4b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f56f398e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f56f398e.js.map",
-    "static/js/2.e7ef5888.chunk.js": "/static/js/2.e7ef5888.chunk.js",
-    "static/js/2.e7ef5888.chunk.js.map": "/static/js/2.e7ef5888.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.50bf9744.chunk.css.map": "/static/css/main.50bf9744.chunk.css.map",
-    "static/js/2.e7ef5888.chunk.js.LICENSE.txt": "/static/js/2.e7ef5888.chunk.js.LICENSE.txt",
-    "static/media/Banner.c2abdb13.webp": "/static/media/Banner.c2abdb13.webp",
-    "static/media/SkipLogo.1400b4a1.webp": "/static/media/SkipLogo.1400b4a1.webp",
-    "static/media/UberEatsLogo.82367195.webp": "/static/media/UberEatsLogo.82367195.webp"
+    "main.css": "//sebdevar.github.io/delli_libanais/static/css/main.50bf9744.chunk.css",
+    "main.js": "//sebdevar.github.io/delli_libanais/static/js/main.79011ef0.chunk.js",
+    "main.js.map": "//sebdevar.github.io/delli_libanais/static/js/main.79011ef0.chunk.js.map",
+    "runtime-main.js": "//sebdevar.github.io/delli_libanais/static/js/runtime-main.f1b9fb31.js",
+    "runtime-main.js.map": "//sebdevar.github.io/delli_libanais/static/js/runtime-main.f1b9fb31.js.map",
+    "static/js/2.9d939ad5.chunk.js": "//sebdevar.github.io/delli_libanais/static/js/2.9d939ad5.chunk.js",
+    "static/js/2.9d939ad5.chunk.js.map": "//sebdevar.github.io/delli_libanais/static/js/2.9d939ad5.chunk.js.map",
+    "index.html": "//sebdevar.github.io/delli_libanais/index.html",
+    "static/css/main.50bf9744.chunk.css.map": "//sebdevar.github.io/delli_libanais/static/css/main.50bf9744.chunk.css.map",
+    "static/js/2.9d939ad5.chunk.js.LICENSE.txt": "//sebdevar.github.io/delli_libanais/static/js/2.9d939ad5.chunk.js.LICENSE.txt",
+    "static/media/Banner.c2abdb13.webp": "//sebdevar.github.io/delli_libanais/static/media/Banner.c2abdb13.webp",
+    "static/media/SkipLogo.1400b4a1.webp": "//sebdevar.github.io/delli_libanais/static/media/SkipLogo.1400b4a1.webp",
+    "static/media/UberEatsLogo.82367195.webp": "//sebdevar.github.io/delli_libanais/static/media/UberEatsLogo.82367195.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.f56f398e.js",
-    "static/js/2.e7ef5888.chunk.js",
+    "static/js/runtime-main.f1b9fb31.js",
+    "static/js/2.9d939ad5.chunk.js",
     "static/css/main.50bf9744.chunk.css",
-    "static/js/main.90969e4b.chunk.js"
+    "static/js/main.79011ef0.chunk.js"
   ]
 }
