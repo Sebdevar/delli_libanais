@@ -44,7 +44,7 @@ const initialState = {
       text: "Vraiment excellent, généreuse portion à date c'est le meilleur que j'ai mangé. En plus c'est très propre. Bravo",
     },
   ],
-  reviewsCount: 318,
+  reviewsCount: 317,
 };
 
 const GoogleInfosProvider = ({ children }) => {
@@ -52,7 +52,7 @@ const GoogleInfosProvider = ({ children }) => {
 
   useEffect(() => {
     async function fetchGoogleInfos() {
-      const response = await fetch(`https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?key=${process.env.REACT_APP_GOOGLE_API_KEY}&place_id=ChIJ37EjUOmXuEwRe9AOxoNNSXA&fields=rating,review,user_ratings_total&language=fr`);
+      const response = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?key=${process.env.REACT_APP_GOOGLE_API_KEY}&place_id=ChIJ37EjUOmXuEwRe9AOxoNNSXA&fields=rating,review,user_ratings_total&language=fr`);
       if (response.ok) {
         const responseBody = await response.json();
         setState({
