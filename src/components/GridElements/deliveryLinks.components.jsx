@@ -27,8 +27,6 @@ display:flex;
 align-items:center;
 justify-content: center;
 
-color: white;
-background-color: #555;
 grid-column-start: 2;
 grid-column-end: 5;
 `;
