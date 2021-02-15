@@ -32,8 +32,8 @@ const Note = styled.div`
   font-family: 'Lato', sans-serif;
   text-align:left;
   font-size: 12pt;
-  line-height: 20px;
   padding-bottom: 5px;
+  white-space: pre-wrap;
 
   grid-column-start: 1;
   grid-column-end: 3;

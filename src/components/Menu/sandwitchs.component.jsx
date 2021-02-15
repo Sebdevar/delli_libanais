@@ -14,7 +14,7 @@ const Sandwichs = () => (
       {' | '}
       Trio
       {' - '}
-      <Price price={Menu.sandwitch.prixSeul} />
+      <Price price={Menu.sandwitch.prixTrio} />
     </Category>
     <Note>{Menu.sandwitch.note}</Note>
     {Menu.sandwitch.items.map((item) => (
@@ -42,8 +42,8 @@ const Note = styled.div`
   font-family: 'Lato', sans-serif;
   text-align:left;
   font-size: 12pt;
-  line-height: 20px;
   padding-bottom: 5px;
+  white-space: pre-wrap;
 
   grid-column-start: 1;
   grid-column-end: 3;

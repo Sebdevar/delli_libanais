@@ -2,7 +2,7 @@ const menu = {
   assiettes: {
     name: 'Assiettes',
     note: `Chaque assiette est servie avec du riz, des legumes et choix entre patates ou salade.
-      Accompagnée de sauce brune et d'un choix de mayonnaise (Ail ou Fines herbes)`,
+Accompagnée de sauce brune et d'un choix de mayonnaise (Ail ou Fines herbes)`,
     items: [
       {
         name: 'Shish taouk au poulet',
@@ -51,7 +51,7 @@ const menu = {
     prixSeul: '10.99',
     prixTrio: '14.99',
     note: `Trio servi avec boisson en cannette et choix entre patates ou salade
-    Choix de salades: Chou, Couscous, Fatouche, Pâte cari, Betteraves, Pois chiches, Taboule, Pâte fusilli`,
+Choix de salades: Chou, Couscous, Fatouche, Pâte cari, Betteraves, Pois chiches, Taboule, Pâte fusilli`,
     items: [
       {
         name: 'Shiche taouk',
