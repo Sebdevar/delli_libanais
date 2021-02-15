@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "start": "react-scripts start",
+    "start": "export PUBLIC_URL=http://localhost:3000/ && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eslint": "eslint . --ext .js,.jsx",
