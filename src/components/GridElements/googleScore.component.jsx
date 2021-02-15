@@ -26,10 +26,11 @@ const ScoreContainer = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 24px;
+  background-color: #008500;
 `;
 
 const Score = styled.div`
-  color: gold;
+  color: white;
   font-size: 2.5em;
 `;
 
