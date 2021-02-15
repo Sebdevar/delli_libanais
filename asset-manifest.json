@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "//sebdevar.github.io/delli_libanais/static/css/main.50bf9744.chunk.css",
-    "main.js": "//sebdevar.github.io/delli_libanais/static/js/main.3bad65bd.chunk.js",
-    "main.js.map": "//sebdevar.github.io/delli_libanais/static/js/main.3bad65bd.chunk.js.map",
+    "main.css": "//sebdevar.github.io/delli_libanais/static/css/main.7d41e0a9.chunk.css",
+    "main.js": "//sebdevar.github.io/delli_libanais/static/js/main.1d9cd85f.chunk.js",
+    "main.js.map": "//sebdevar.github.io/delli_libanais/static/js/main.1d9cd85f.chunk.js.map",
     "runtime-main.js": "//sebdevar.github.io/delli_libanais/static/js/runtime-main.f1b9fb31.js",
     "runtime-main.js.map": "//sebdevar.github.io/delli_libanais/static/js/runtime-main.f1b9fb31.js.map",
     "static/js/2.0dde89f2.chunk.js": "//sebdevar.github.io/delli_libanais/static/js/2.0dde89f2.chunk.js",
     "static/js/2.0dde89f2.chunk.js.map": "//sebdevar.github.io/delli_libanais/static/js/2.0dde89f2.chunk.js.map",
     "index.html": "//sebdevar.github.io/delli_libanais/index.html",
-    "static/css/main.50bf9744.chunk.css.map": "//sebdevar.github.io/delli_libanais/static/css/main.50bf9744.chunk.css.map",
+    "static/css/main.7d41e0a9.chunk.css.map": "//sebdevar.github.io/delli_libanais/static/css/main.7d41e0a9.chunk.css.map",
     "static/js/2.0dde89f2.chunk.js.LICENSE.txt": "//sebdevar.github.io/delli_libanais/static/js/2.0dde89f2.chunk.js.LICENSE.txt",
     "static/media/Banner.c2abdb13.webp": "//sebdevar.github.io/delli_libanais/static/media/Banner.c2abdb13.webp",
     "static/media/SkipLogo.1400b4a1.webp": "//sebdevar.github.io/delli_libanais/static/media/SkipLogo.1400b4a1.webp",
-    "static/media/UberEatsLogo.82367195.webp": "//sebdevar.github.io/delli_libanais/static/media/UberEatsLogo.82367195.webp"
+    "static/media/UberEatsLogo.82367195.webp": "//sebdevar.github.io/delli_libanais/static/media/UberEatsLogo.82367195.webp",
+    "static/media/assietteMixte.ef34c588.webp": "//sebdevar.github.io/delli_libanais/static/media/assietteMixte.ef34c588.webp",
+    "static/media/baklawa.cc067f7c.webp": "//sebdevar.github.io/delli_libanais/static/media/baklawa.cc067f7c.webp",
+    "static/media/brochetteCombo.860706a0.webp": "//sebdevar.github.io/delli_libanais/static/media/brochetteCombo.860706a0.webp",
+    "static/media/brochetteDePoulet.ea589dca.webp": "//sebdevar.github.io/delli_libanais/static/media/brochetteDePoulet.ea589dca.webp",
+    "static/media/crevettes.5ed8ca04.webp": "//sebdevar.github.io/delli_libanais/static/media/crevettes.5ed8ca04.webp",
+    "static/media/filetDeSole.19881611.webp": "//sebdevar.github.io/delli_libanais/static/media/filetDeSole.19881611.webp",
+    "static/media/heroShot.995a6ce3.webp": "//sebdevar.github.io/delli_libanais/static/media/heroShot.995a6ce3.webp",
+    "static/media/keftka.6fc2e28e.webp": "//sebdevar.github.io/delli_libanais/static/media/keftka.6fc2e28e.webp",
+    "static/media/pitaShihTaouk.c9e93b2d.webp": "//sebdevar.github.io/delli_libanais/static/media/pitaShihTaouk.c9e93b2d.webp",
+    "static/media/quatreSalades.3514945c.webp": "//sebdevar.github.io/delli_libanais/static/media/quatreSalades.3514945c.webp",
+    "static/media/saladeTaouk.9ea024c9.webp": "//sebdevar.github.io/delli_libanais/static/media/saladeTaouk.9ea024c9.webp",
+    "static/media/shawarma.6a2152c5.webp": "//sebdevar.github.io/delli_libanais/static/media/shawarma.6a2152c5.webp",
+    "static/media/shishTaouk.fb06a001.webp": "//sebdevar.github.io/delli_libanais/static/media/shishTaouk.fb06a001.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f1b9fb31.js",
     "static/js/2.0dde89f2.chunk.js",
-    "static/css/main.50bf9744.chunk.css",
-    "static/js/main.3bad65bd.chunk.js"
+    "static/css/main.7d41e0a9.chunk.css",
+    "static/js/main.1d9cd85f.chunk.js"
   ]
 }
