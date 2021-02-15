@@ -68,8 +68,7 @@ const CommentsCarousel = () => {
 };
 
 const CarouselContainer = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 6;
+  grid-area: comments;
   width: 100%;
   height: 100%;
   overflow: hidden;

@@ -39,6 +39,7 @@ const StarRating = styled.div`
   position: relative;
   color: #c5c5c5;
   font-size: 2em;
+  grid-area: score;
 
   &::after {
     display: block;

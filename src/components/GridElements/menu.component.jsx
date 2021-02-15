@@ -22,8 +22,7 @@ const StyledMenu = styled.div`
 
 color: white;
 background-color: #999;
-grid-column-start: 2;
-grid-column-end: 5;
+grid-area: menu;
 grid-row-start: 3;
 grid-row-end: 7;
 grid-column-gap: 27px;

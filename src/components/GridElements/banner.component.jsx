@@ -30,8 +30,7 @@ const StyledImage = styled.img`
 `;
 
 const StyledBanner = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 6;
+  grid-area: banner;
 
   color:white;
   font-weight: bold;

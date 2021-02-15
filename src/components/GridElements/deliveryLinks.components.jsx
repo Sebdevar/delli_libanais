@@ -27,8 +27,7 @@ display:flex;
 align-items:center;
 justify-content: center;
 
-grid-column-start: 2;
-grid-column-end: 5;
+grid-area: links;
 `;
 
 export default deliveryLinks;

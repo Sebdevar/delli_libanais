@@ -19,6 +19,7 @@ const Address = () => (
 const StyledIframe = styled.iframe`
   border:0;
   transition: 0.2s all ease-out;
+  grid-area: map;
   &:hover{
     transform: scale(1.03);
     transition: 0.2s all ease-out;

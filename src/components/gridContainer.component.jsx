@@ -37,6 +37,16 @@ const GridContainer = styled.div`
   margin: 0 auto;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-auto-rows: 240px;
+
+  grid-template-areas:
+    "banner banner banner banner banner"
+    "map links links links score"
+    ". menu menu menu ."
+    ". menu menu menu ."
+    ". menu menu menu ."
+    ". menu menu menu ."
+    "comments comments comments comments comments"
+    "footer footer footer footer footer";
 `;
 
 const Footer = styled.div`
@@ -45,8 +55,7 @@ const Footer = styled.div`
   justify-content: center;
   color: red;
   background-color: black;
-  grid-column-start: 1;
-  grid-column-end: 6;
+  grid-area: footer;
 `;
 
 export default grid;
