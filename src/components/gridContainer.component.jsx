@@ -6,6 +6,7 @@ import Address from './GridElements/address.component';
 import DeliveryLinks from './GridElements/deliveryLinks.components';
 import Menu from './GridElements/menu.component';
 import GoogleScore from './GridElements/googleScore.component';
+import Food from './GridElements/food.component';
 import Comments from './GridElements/comments.component';
 
 const grid = () => (
@@ -15,14 +16,14 @@ const grid = () => (
     <DeliveryLinks />
     <GoogleScore>Google Stuff</GoogleScore>
     <Menu />
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
-    <Food>\^o^/ Food! ＼(ﾟｰﾟ＼)</Food>
+    <Food number="2" />
+    <Food number="3" />
+    <Food number="7" />
+    <Food number="10" />
+    <Food number="4" />
+    <Food number="5" />
+    <Food number="6" />
+    <Food number="9" />
     <Comments />
     <Footer>
       Footer
@@ -38,12 +39,14 @@ const GridContainer = styled.div`
   grid-auto-rows: 240px;
 `;
 
-const Food = styled.div`
+const Comments = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: gold;
-  background-color: #777;
+  color: cyan;
+  background-color: #555;
+  grid-column-start: 1;
+  grid-column-end: 6;
 `;
 
 const Footer = styled.div`
