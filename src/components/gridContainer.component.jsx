@@ -39,16 +39,6 @@ const GridContainer = styled.div`
   grid-auto-rows: 240px;
 `;
 
-const Comments = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: cyan;
-  background-color: #555;
-  grid-column-start: 1;
-  grid-column-end: 6;
-`;
-
 const Footer = styled.div`
   display: flex;
   align-items: center;
