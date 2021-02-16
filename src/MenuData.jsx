@@ -1,7 +1,7 @@
 const menu = {
   assiettes: {
     name: 'Assiettes',
-    note: `Chaque assiette est servie avec du riz, des legumes et choix entre patates ou salade.
+    note: `Chaque assiette est servie avec du riz, des légumes et choix entre patates ou salade.
 Accompagnée de sauce brune et d'un choix de mayonnaise (Ail ou Fines herbes)`,
     items: [
       {
@@ -46,23 +46,23 @@ Accompagnée de sauce brune et d'un choix de mayonnaise (Ail ou Fines herbes)`,
       },
     ],
   },
-  sandwitch: {
+  sandwich: {
     name: 'Sandwichs',
-    note: `Trio servi avec boisson en cannette et choix entre patates ou salade
-Choix de salades: Chou, Couscous, Fatouche, Pâte cari, Betteraves, Pois chiches, Taboule, Pâte fusilli`,
+    note: `Trio servi avec boisson en cannette et choix de patates ou salade
+Choix de salades: Choux, Couscous, Fatouche, Pâtes au cari, Betteraves, Pois chiches, Taboulé, Pâtes fusilli`,
     items: [
       {
-        name: 'Shiche taouk',
+        name: 'Shish taouk',
         prixSeul: '10,99',
         prixTrio: '14,99',
       },
       {
-        name: 'Shawarma de boeuf',
+        name: 'Shawarma au boeuf',
         prixSeul: '10,99',
         prixTrio: '14,99',
       },
       {
-        name: 'Mixte trois viandes',
+        name: 'Mixte trois viandes: boeuf, agneau et poulet',
         prixSeul: '10,99',
         prixTrio: '14,99',
       },
@@ -92,7 +92,7 @@ Choix de salades: Chou, Couscous, Fatouche, Pâte cari, Betteraves, Pois chiches
     name: 'Baklawas',
     items: [
       {
-        name: 'Pistache et cago',
+        name: 'Pistache et cajou',
         price: '3,10',
       },
       {
@@ -122,7 +122,7 @@ Choix de salades: Chou, Couscous, Fatouche, Pâte cari, Betteraves, Pois chiches
         price: '2,00',
       },
       {
-        name: 'Jus d\'orange',
+        name: "Jus d'orange",
         price: '2,00',
       },
       {
@@ -139,16 +139,6 @@ Choix de salades: Chou, Couscous, Fatouche, Pâte cari, Betteraves, Pois chiches
       },
     ],
   },
-  // category: {
-  //   name: 'NAME',
-  //   note: 'NOTE',
-  //   items: [
-  //     {
-  //       name: 'NAME',
-  //       price: 1234,
-  //     },
-  //   ],
-  // },
 };
 
 export default menu;

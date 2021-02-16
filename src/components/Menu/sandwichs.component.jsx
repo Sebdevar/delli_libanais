@@ -7,14 +7,14 @@ import WideItem from './wideItem.component';
 const Sandwichs = () => (
   <>
     <Category>
-      {Menu.sandwitch.name}
+      {Menu.sandwich.name}
     </Category>
-    <Note>{Menu.sandwitch.note}</Note>
+    <Note>{Menu.sandwich.note}</Note>
     <Header>
       <PricingHeader>Seul</PricingHeader>
       <PricingHeader>Trio</PricingHeader>
     </Header>
-    {Menu.sandwitch.items.map((item) => (
+    {Menu.sandwich.items.map((item) => (
       <WideItem name={item.name} price1={item.prixSeul} price2={item.prixTrio} />
     ))}
   </>
@@ -24,13 +24,13 @@ const Category = styled.div`
   text-align: left;
   font-size: 23pt;
   font-family: 'Cinzel Decorative', cursive;
+
   ::first-letter {
     font-size: 130%;
   }
+
   padding-top: 15px;
-
-  height:50px;
-
+  height: 50px;
   grid-column-start: 1;
   grid-column-end: 3;
 `;
@@ -42,7 +42,6 @@ const PricingHeader = styled.div`
 const Header = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
-
   grid-column-start: 2;
   grid-column-end: 3;
   text-align: right;
@@ -52,11 +51,10 @@ const Header = styled.div`
 
 const Note = styled.div`
   font-family: 'Lato', sans-serif;
-  text-align:left;
+  text-align: left;
   font-size: 12pt;
   padding-bottom: 5px;
   white-space: pre-wrap;
-
   grid-column-start: 1;
   grid-column-end: 3;
 `;
