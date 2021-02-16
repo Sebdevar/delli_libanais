@@ -42,7 +42,7 @@ const StyledItem = styled.div`
   align-items:center;
 
   color: white;
-  background-color: #777;
+  background-color: rgba(0, 0, 0, 0.25);
 `;
 
 export default Item;
