@@ -6,43 +6,43 @@ Accompagnée de sauce brune et d'un choix de mayonnaise (Ail ou Fines herbes)`,
     items: [
       {
         name: 'Shish taouk au poulet',
-        price: '14,99',
+        price: '11,69',
       },
       {
         name: 'Shawarma au boeuf',
-        price: '15,99',
+        price: '11,89',
       },
       {
         name: 'Mixte trois viandes: boeuf, agneau et poulet',
-        price: '15,65',
+        price: '11,79',
       },
       {
         name: 'Combo brochettes poulet et crevettes',
-        price: '15,99',
+        price: '11,89',
       },
       {
         name: 'Brochette de poulet',
-        price: '14,99',
+        price: '11,69',
       },
       {
         name: 'Filet de sole',
-        price: '14,99',
+        price: '11,69',
       },
       {
         name: 'Crevettes',
-        price: '15,99',
+        price: '11,89',
       },
       {
         name: 'Kefta',
-        price: '14,99',
+        price: '11,69',
       },
       {
         name: 'Salade taouk',
-        price: '15,99',
+        price: '11,89',
       },
       {
         name: 'Salade',
-        price: '14,55',
+        price: '10,49',
       },
     ],
   },
@@ -53,38 +53,38 @@ Choix de salades: Choux, Couscous, Fatouche, Pâtes au cari, Betteraves, Pois ch
     items: [
       {
         name: 'Shish taouk',
-        prixSeul: '10,99',
-        prixTrio: '14,99',
+        prixSeul: '8,49',
+        prixTrio: '11,79',
       },
       {
         name: 'Shawarma au boeuf',
-        prixSeul: '10,99',
-        prixTrio: '14,99',
+        prixSeul: '8,69',
+        prixTrio: '11,79',
       },
       {
         name: 'Mixte trois viandes: boeuf, agneau et poulet',
-        prixSeul: '10,99',
-        prixTrio: '14,99',
+        prixSeul: '8,69',
+        prixTrio: '11,79',
       },
       {
         name: 'Falafel',
-        prixSeul: '10,99',
-        prixTrio: '14,99',
+        prixSeul: '8,49',
+        prixTrio: '11,79',
       },
       {
         name: 'Kefta',
-        prixSeul: '10,99',
-        prixTrio: '14,99',
+        prixSeul: '8,49',
+        prixTrio: '11,79',
       },
       {
         name: 'Merguez',
-        prixSeul: '10,99',
-        prixTrio: '14,99',
+        prixSeul: '8,49',
+        prixTrio: '11,79',
       },
       {
         name: 'Gyro',
-        prixSeul: '10,99',
-        prixTrio: '14,99',
+        prixSeul: '8,49',
+        prixTrio: '11,79',
       },
     ],
   },
@@ -93,23 +93,23 @@ Choix de salades: Choux, Couscous, Fatouche, Pâtes au cari, Betteraves, Pois ch
     items: [
       {
         name: 'Pistache et cajou',
-        price: '3,10',
+        price: '2,09',
       },
       {
         name: 'Amandes, noix et canelle',
-        price: '3,10',
+        price: '2,09',
       },
       {
         name: 'Chocolat',
-        price: '3,10',
+        price: '2,09',
       },
       {
         name: 'Noix',
-        price: '3,10',
+        price: '2,09',
       },
       {
         name: 'Amandes',
-        price: '3,10',
+        price: '2,09',
       },
 
     ],
@@ -118,24 +118,24 @@ Choix de salades: Choux, Couscous, Fatouche, Pâtes au cari, Betteraves, Pois ch
     name: 'Boissons',
     items: [
       {
-        name: 'Jus de pomme',
-        price: '2,00',
+        name: 'Bouteille d\'eau',
+        price: '1,50',
       },
       {
-        name: "Jus d'orange",
-        price: '2,00',
-      },
-      {
-        name: 'Jus de légumes',
-        price: '2,00',
+        name: 'Jus Oasis',
+        price: '1,80',
       },
       {
         name: 'Nestea (bouteille)',
-        price: '2,98',
+        price: '2,59',
       },
       {
         name: 'Peace tea',
-        price: '2,98',
+        price: '2,59',
+      },
+      {
+        name: 'Jus de canneberge',
+        price: '2,59',
       },
     ],
   },
