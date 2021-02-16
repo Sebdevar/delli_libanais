@@ -9,7 +9,7 @@ const Assiettes = () => (
     <Category>{Menu.assiettes.name}</Category>
     <Note>{Menu.assiettes.note}</Note>
     {Menu.assiettes.items.map((item) => (
-      <Item name={item.name} price={item.price} />
+      <Item key={item.name} name={item.name} price={item.price} />
     ))}
   </>
 );

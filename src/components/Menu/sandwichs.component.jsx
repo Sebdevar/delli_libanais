@@ -15,7 +15,7 @@ const Sandwichs = () => (
       <PricingHeader>Trio</PricingHeader>
     </Header>
     {Menu.sandwich.items.map((item) => (
-      <WideItem name={item.name} price1={item.prixSeul} price2={item.prixTrio} />
+      <WideItem key={item.name} name={item.name} price1={item.prixSeul} price2={item.prixTrio} />
     ))}
   </>
 );

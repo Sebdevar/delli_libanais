@@ -8,19 +8,15 @@ const Item = (props) => {
   const { name, price1, price2 } = props;
 
   return (
-    <StyledItem key={name}>
+    <StyledItem>
       <Name>
         {name}
       </Name>
       <Seul>
-        {price1 ? (
-          <Price price={price1} />
-        ) : (<></>)}
+        {price1 && (<Price price={price1} />)}
       </Seul>
       <Trio>
-        {price1 ? (
-          <Price price={price2} />
-        ) : (<></>)}
+        {price2 && (<Price price={price2} />)}
       </Trio>
     </StyledItem>
   );
@@ -28,8 +24,8 @@ const Item = (props) => {
 
 Item.propTypes = {
   name: PropTypes.string.isRequired,
-  price1: PropTypes.number.isRequired,
-  price2: PropTypes.number.isRequired,
+  price1: PropTypes.string.isRequired,
+  price2: PropTypes.string.isRequired,
 };
 
 const Trio = styled.div`

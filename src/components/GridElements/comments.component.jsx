@@ -30,7 +30,7 @@ const CommentsCarousel = () => {
   }, [actions]);
 
   const carouselContent = useMemo(() => state.reviews.map((review) => (
-    <CommentBox>
+    <CommentBox key={review.time}>
       <Text>{review.text}</Text>
       <Rating>{'★'.repeat(review.rating)}</Rating>
     </CommentBox>

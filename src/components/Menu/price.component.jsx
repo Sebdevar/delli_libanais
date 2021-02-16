@@ -31,7 +31,7 @@ const Taxes = styled.sup`
 `;
 
 PriceComponent.propTypes = {
-  price: PropTypes.number.isRequired,
+  price: PropTypes.string.isRequired,
 };
 
 export default PriceComponent;

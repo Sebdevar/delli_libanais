@@ -8,7 +8,7 @@ const Item = (props) => {
   const { name, price } = props;
 
   return (
-    <StyledItem key={name}>
+    <StyledItem>
       <Name>
         {name}
       </Name>
@@ -21,7 +21,7 @@ const Item = (props) => {
 
 Item.propTypes = {
   name: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
+  price: PropTypes.string.isRequired,
 };
 
 const Name = styled.div`

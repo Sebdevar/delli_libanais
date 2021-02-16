@@ -10,7 +10,7 @@ const Baklawas = () => (
       {Menu.baklawa.name}
     </Category>
     {Menu.baklawa.items.map((item) => (
-      <Item name={item.name} price={item.price} />
+      <Item key={item.name} name={item.name} price={item.price} />
     ))}
   </StyledItem>
 );

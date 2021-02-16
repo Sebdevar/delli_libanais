@@ -10,7 +10,7 @@ const Boissons = () => (
       {Menu.boissons.name}
     </Category>
     {Menu.boissons.items.map((item) => (
-      <Item name={item.name} price={item.price} />
+      <Item key={item.name} name={item.name} price={item.price} />
     ))}
   </StyledItem>
 );

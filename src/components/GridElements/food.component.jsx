@@ -54,7 +54,7 @@ const StyledFood = styled.div`
 `;
 
 Food.propTypes = {
-  number: PropTypes.number.isRequired,
+  number: PropTypes.string.isRequired,
 };
 
 export default Food;

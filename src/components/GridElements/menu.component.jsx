@@ -22,7 +22,7 @@ const StyledMenu = styled.div`
   background-image:
     linear-gradient(
       -30deg,
-      #002e66,
+      #00408f,
       #1382aa
     );
   grid-area: menu;
