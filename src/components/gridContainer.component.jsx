@@ -8,13 +8,14 @@ import Menu from './GridElements/menu.component';
 import GoogleScore from './GridElements/googleScore.component';
 import Food from './GridElements/food.component';
 import Comments from './GridElements/comments.component';
+import Footer from './GridElements/footer.component';
 
 const grid = () => (
   <GridContainer>
     <Banner />
     <Address />
     <DeliveryLinks />
-    <GoogleScore>Google Stuff</GoogleScore>
+    <GoogleScore />
     <Menu />
     <Food number="2" />
     <Food number="3" />
@@ -25,9 +26,7 @@ const grid = () => (
     <Food number="6" />
     <Food number="9" />
     <Comments />
-    <Footer>
-      Footer
-    </Footer>
+    <Footer />
   </GridContainer>
 );
 
@@ -37,7 +36,6 @@ const GridContainer = styled.div`
   margin: 0 auto;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-auto-rows: 240px;
-
   grid-template-areas:
     "banner banner banner banner banner"
     "map links links links score"
@@ -47,15 +45,6 @@ const GridContainer = styled.div`
     ". menu menu menu ."
     "comments comments comments comments comments"
     "footer footer footer footer footer";
-`;
-
-const Footer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: red;
-  background-color: black;
-  grid-area: footer;
 `;
 
 export default grid;
