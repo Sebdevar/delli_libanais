@@ -18,17 +18,18 @@ const MenuComponent = () => (
 const StyledMenu = styled.div`
   display:grid;
   padding: 10px;
-  width: 720px;
 
 color: white;
-background-color: #999;
+  background-image: linear-gradient(-30deg,
+    #002e66,
+    #1382aa
+  );
+
 grid-area: menu;
-grid-row-start: 3;
-grid-row-end: 7;
-grid-column-gap: 27px;
+grid-column-gap: 10px;
 grid-row-gap: 5px;
 
-grid-template-columns: 45.5% 45.5%;
+grid-template-columns: 1fr 1fr;
 grid-auto-rows: min-content;
 `;
 

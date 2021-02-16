@@ -59,7 +59,7 @@ const StyledItem = styled.div`
   display: grid;
   padding-left: 10px;
   padding-right: 10px;
-  width: 100%;
+  width: 1fr;
   grid-template-columns: 25% 25% 25% 25%;
   align-items:center;
   grid-template-areas: "name name seul trio";

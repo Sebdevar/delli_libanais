@@ -37,12 +37,12 @@ const StyledItem = styled.div`
   display: grid;
   padding-left: 10px;
   padding-right: 10px;
-  width: 100%;
+  width: 1fr;
   grid-template-columns: auto auto;
-align-items:center;
+  align-items:center;
 
-color: white;
-background-color: #777;
+  color: white;
+  background-color: #777;
 `;
 
 export default Item;
