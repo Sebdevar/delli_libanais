@@ -26,6 +26,7 @@ Item.propTypes = {
 
 const Name = styled.div`
   font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
   text-align: left;
   ::first-letter {
     font-size: 130%;

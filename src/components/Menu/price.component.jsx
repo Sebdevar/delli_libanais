@@ -9,13 +9,14 @@ const PriceComponent = (props) => {
     <StyledPrice>
       {price}
       $
-      <Taxes>+taxes</Taxes>
+      <Taxes>+tx</Taxes>
     </StyledPrice>
   );
 };
 
 const StyledPrice = styled.span`
   font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
   text-align: right;
   font-size: inherit;
 `;

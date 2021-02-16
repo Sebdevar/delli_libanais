@@ -2,23 +2,20 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Menu from '../../MenuData';
-import Item from './item.component';
-import Price from './price.component';
+import WideItem from './wideItem.component';
 
 const Sandwichs = () => (
   <>
     <Category>
       {Menu.sandwitch.name}
-      {' - '}
-      <Price price={Menu.sandwitch.prixSeul} />
-      {' | '}
-      Trio
-      {' - '}
-      <Price price={Menu.sandwitch.prixTrio} />
     </Category>
     <Note>{Menu.sandwitch.note}</Note>
+    <Header>
+      <div>Seul</div>
+      <div>Trio</div>
+    </Header>
     {Menu.sandwitch.items.map((item) => (
-      <Item name={item.name} price={item.price} />
+      <WideItem name={item.name} price1={item.prixSeul} price2={item.prixTrio} />
     ))}
   </>
 );
@@ -36,6 +33,17 @@ const Category = styled.div`
 
   grid-column-start: 1;
   grid-column-end: 3;
+`;
+
+const Header = styled.div`
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: right;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
 `;
 
 const Note = styled.div`
