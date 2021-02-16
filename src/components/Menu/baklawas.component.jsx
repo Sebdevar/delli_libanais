@@ -16,8 +16,8 @@ const Baklawas = () => (
 );
 
 const StyledItem = styled.div`
-  display:grid;
-  grid-column-start:1;
+  display: grid;
+  grid-column-start: 1;
   grid-column-gap: 27px;
   grid-row-gap: 5px;
 `;
@@ -26,12 +26,13 @@ const Category = styled.div`
   text-align: left;
   font-size: 23pt;
   font-family: 'Cinzel Decorative', cursive;
+
   ::first-letter {
     font-size: 130%;
   }
-  padding-top: 15px;
 
-  height:50px;
+  padding-top: 15px;
+  height: 50px;
 `;
 
 export default Baklawas;

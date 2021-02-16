@@ -44,8 +44,7 @@ const Food = (props) => {
 
 const StyledImage = styled.img`
   object-fit: cover;
-  overflow:hidden;
-
+  overflow: hidden;
   height: 240px;
   width: 240px;
 `;

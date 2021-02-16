@@ -33,12 +33,12 @@ Item.propTypes = {
 };
 
 const Trio = styled.div`
-  text-align:right;
+  text-align: right;
   grid-area: trio;
-  `;
+`;
 
 const Seul = styled.div`
-  text-align:right;
+  text-align: right;
   grid-area: seul;
 `;
 
@@ -47,6 +47,7 @@ const Name = styled.div`
   text-align: left;
   font-weight: bold;
   grid-area: name;
+
   ::first-letter {
     font-size: 130%;
   }
@@ -55,15 +56,13 @@ const Name = styled.div`
 const StyledItem = styled.div`
   grid-column-start: 1;
   grid-column-end: 3;
-
   display: grid;
   padding-left: 10px;
   padding-right: 10px;
   width: 1fr;
   grid-template-columns: 25% 25% 25% 25%;
-  align-items:center;
+  align-items: center;
   grid-template-areas: "name name seul trio";
-
   color: white;
   background-color: rgba(0, 0, 0, 0.25);
 `;

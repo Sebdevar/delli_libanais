@@ -28,6 +28,7 @@ const Name = styled.div`
   font-family: 'Cinzel Decorative', cursive;
   font-weight: bold;
   text-align: left;
+
   ::first-letter {
     font-size: 130%;
   }
@@ -39,8 +40,7 @@ const StyledItem = styled.div`
   padding-right: 10px;
   width: 1fr;
   grid-template-columns: auto auto;
-  align-items:center;
-
+  align-items: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.25);
 `;

@@ -21,14 +21,12 @@ const StyledPrice = styled.span`
   font-weight: bold;
   text-align: right;
   font-size: inherit;
-
   color: #ffc400;
 `;
 
 const Taxes = styled.sup`
   font-family: 'Cinzel Decorative', cursive;
   font-size: 60%;
-
   color: white;
 `;
 

@@ -16,8 +16,7 @@ const Text = styled.div`
   position: relative;
   left: 50%;
   transform: translate(-50%, -110%);
-  text-shadow: 4px 4px 3.5px rgba(0,0,0,0.3);
-
+  text-shadow: 4px 4px 3.5px rgba(0, 0, 0, 0.3);
   font-family: 'Lateef', cursive;
   font-size: 25pt;
 `;
@@ -26,13 +25,12 @@ const StyledImage = styled.img`
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display:block;
+  display: block;
 `;
 
 const StyledBanner = styled.div`
   grid-area: banner;
-
-  color:white;
+  color: white;
   font-weight: bold;
 `;
 export default Banner;

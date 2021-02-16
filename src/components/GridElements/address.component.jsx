@@ -17,13 +17,14 @@ const Address = () => (
 );
 
 const StyledIframe = styled.iframe`
-  border:0;
+  border: 0;
   transition: 0.2s all ease-out;
   grid-area: map;
-  &:hover{
+
+  &:hover {
     transform: scale(1.03);
     transition: 0.2s all ease-out;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   }
 `;
 

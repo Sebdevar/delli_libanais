@@ -40,10 +40,9 @@ const StyledGrid = styled.div`
 `;
 
 const DeliveryLinks = styled.div`
-display:flex;
-align-items:center;
+display: flex;
+align-items: center;
 justify-content: center;
-
 grid-area: links;
 `;
 
