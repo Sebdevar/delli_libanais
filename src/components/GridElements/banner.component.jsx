@@ -15,7 +15,7 @@ const Banner = () => (
 const Text = styled.div`
   position: relative;
   left: 50%;
-  transform: translate(-50%, -90%);
+  transform: translate(-50%, -110%);
   text-shadow: 4px 4px 3.5px rgba(0,0,0,0.3);
 
   font-family: 'Lateef', cursive;
