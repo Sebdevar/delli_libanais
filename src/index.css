@@ -16,6 +16,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+  linear-gradient(
+    to right,
+    #f37500,
+    #c75000 30%,
+    #c75000 70%,
+    #f37500
+  );
 }
 
 code {
