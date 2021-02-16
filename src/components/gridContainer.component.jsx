@@ -35,7 +35,7 @@ const GridContainer = styled.div`
   width: 1200px;
   margin: 0 auto;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-auto-rows: 240px;
+  grid-template-rows: repeat(7, 240px) 100px;
   grid-template-areas:
     "banner banner banner banner banner"
     "map links links links score"

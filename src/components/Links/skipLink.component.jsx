@@ -17,16 +17,17 @@ const deliveryLinks = () => (
 );
 
 const Image = styled.img`
-  width: 240px
+  width: 240px;
 `;
 
 const Link = styled.a`
   text-decoration: none;
   transition: 0.2s all ease-out;
-  &:hover{
+
+  &:hover {
     transform: scale(1.03);
     transition: 0.2s all ease-out;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   }
 `;
 
