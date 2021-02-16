@@ -26,18 +26,25 @@ const ScoreContainer = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  background-color: #008500;
+  /* background-color: #008500; */
+  background-image: linear-gradient(30deg,
+    #004497,
+    #1382aa
+  );
 `;
 
 const Score = styled.div`
   color: white;
   font-size: 2.5em;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.4);
+
 `;
 
 const StarRating = styled.div`
   display: block;
   position: relative;
-  color: #c5c5c5;
+  color: rgba(197, 197, 197, .6);
+  text-shadow: 5px 5px 5px rgba(0,0,0,.4);
   font-size: 2em;
   grid-area: score;
 
@@ -55,6 +62,6 @@ const StarRating = styled.div`
 `;
 
 const ReviewCount = styled.div`
-  color: black;
-
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.4);
 `;
