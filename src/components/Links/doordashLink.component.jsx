@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const doordashURL = 'https://www.doordash.com/business/382786/?utm_source=partner-link&utm_medium=website&utm_campaign=382786&utm_content=red-xl';
+const doordashURL = 'https://www.doordash.com/store/1519755/fr-CA?utm_campaign=1519755&utm_content&utm_medium=website&utm_source=partner-link';
 
 const deliveryLinks = () => (
   <DoordashLink

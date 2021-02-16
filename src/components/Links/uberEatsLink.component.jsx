@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import uberEatsLogo from '../../images/UberEatsLogo.webp';
 
-const uberEatsURL = 'https://www.ubereats.com/ca';
+const uberEatsURL = 'https://www.ubereats.com/ca/quebec-city/food-delivery/restaurant-libanais-lebourgneuf/JLgp0uwaTle0aGw1S-psGA';
 
 const deliveryLinks = () => (
   <Link
