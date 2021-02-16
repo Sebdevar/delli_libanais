@@ -11,8 +11,8 @@ const Sandwichs = () => (
     </Category>
     <Note>{Menu.sandwitch.note}</Note>
     <Header>
-      <Stuff>Seul</Stuff>
-      <Stuff>Trio</Stuff>
+      <PricingHeader>Seul</PricingHeader>
+      <PricingHeader>Trio</PricingHeader>
     </Header>
     {Menu.sandwitch.items.map((item) => (
       <WideItem name={item.name} price1={item.prixSeul} price2={item.prixTrio} />
@@ -35,7 +35,7 @@ const Category = styled.div`
   grid-column-end: 3;
 `;
 
-const Stuff = styled.div`
+const PricingHeader = styled.div`
   padding-right: 35px;
 `;
 
