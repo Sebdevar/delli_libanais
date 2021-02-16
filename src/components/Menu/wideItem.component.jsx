@@ -8,7 +8,7 @@ const Item = (props) => {
   const { name, price1, price2 } = props;
 
   return (
-    <StyledItem>
+    <StyledItem key={name}>
       <Name>
         {name}
       </Name>

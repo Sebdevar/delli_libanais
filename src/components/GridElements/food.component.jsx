@@ -36,7 +36,7 @@ const Food = (props) => {
   const { number } = props;
 
   return (
-    <StyledFood>
+    <StyledFood key={number}>
       <StyledImage src={images[number]} />
     </StyledFood>
   );
