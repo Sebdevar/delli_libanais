@@ -25,7 +25,7 @@ const CommentsCarousel = () => {
     const interval = setInterval(() => {
       setAnimation('next');
       actions.nextReview();
-    }, 5000);
+    }, 10000);
     return () => clearInterval(interval);
   }, [actions]);
 
