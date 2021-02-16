@@ -21,6 +21,7 @@ const Image = styled.img`
 `;
 
 const Link = styled.a`
+  width: 241px;
   text-decoration: none;
   background-color:rgb(19,34,40);
   transition: 0.2s all ease-out;
