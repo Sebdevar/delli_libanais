@@ -11,8 +11,8 @@ const Sandwichs = () => (
     </Category>
     <Note>{Menu.sandwich.note}</Note>
     <Header>
-      <PricingHeader>Seul</PricingHeader>
-      <PricingHeader>Trio</PricingHeader>
+      <PricingHeaderSeul>Seul</PricingHeaderSeul>
+      <PricingHeaderTrio>Trio</PricingHeaderTrio>
     </Header>
     {Menu.sandwich.items.map((item) => (
       <WideItem key={item.name} name={item.name} price1={item.prixSeul} price2={item.prixTrio} />
@@ -33,10 +33,31 @@ const Category = styled.div`
   height: 50px;
   grid-column-start: 1;
   grid-column-end: 3;
+
+  @media only screen and (max-device-width: 480px) {
+    grid-column-start: none;
+    grid-column-end: none;
+  }
 `;
 
-const PricingHeader = styled.div`
+const PricingHeaderTrio = styled.div`
   padding-right: 35px;
+
+  @media only screen and (max-device-width: 480px) {
+    display: inline;
+    padding-right: 1em;
+    text-align: right;
+  }
+`;
+
+const PricingHeaderSeul = styled.div`
+  padding-right: 35px;
+
+  @media only screen and (max-device-width: 480px) {
+    display: inline;
+    padding-right: 2.5em;
+    text-align: right;
+  }
 `;
 
 const Header = styled.div`
@@ -47,6 +68,18 @@ const Header = styled.div`
   text-align: right;
   font-family: 'Cinzel Decorative', cursive;
   font-weight: bold;
+
+  @media only screen and (max-device-width: 480px) {
+    grid-column-start: none;
+    grid-column-end: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1fr;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 12pt;
+  }
 `;
 
 const Note = styled.div`
@@ -57,6 +90,12 @@ const Note = styled.div`
   white-space: pre-wrap;
   grid-column-start: 1;
   grid-column-end: 3;
+
+  @media only screen and (max-device-width: 480px) {
+    grid-column-start: none;
+    grid-column-end: none;
+    font-size: 11pt;
+  }
 `;
 
 export default Sandwichs;

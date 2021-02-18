@@ -20,6 +20,10 @@ const StyledItem = styled.div`
   grid-column-start: 1;
   grid-column-gap: 27px;
   grid-row-gap: 5px;
+
+  @media only screen and (max-device-width: 480px) {
+    display: block;
+  }
 `;
 
 const Category = styled.div`
@@ -33,6 +37,11 @@ const Category = styled.div`
 
   padding-top: 15px;
   height: 50px;
+
+  @media only screen and (max-device-width: 480px) {
+    grid-column-start: none;
+    grid-column-end: none;
+  }
 `;
 
 export default Baklawas;

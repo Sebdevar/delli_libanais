@@ -61,6 +61,11 @@ const StyledItem = styled.div`
   grid-template-areas: "name name seul trio";
   color: white;
   background-color: rgba(0, 0, 0, 0.25);
+
+  @media only screen and (max-device-width: 480px) {
+    margin-bottom: 5px;
+    font-size: 10pt;
+  }
 `;
 
 export default Item;

@@ -57,9 +57,9 @@ const CommentsCarousel = () => {
       >
         {carouselContent}
       </CarouselContent>
-      <Next onClick={handleNextClick}>
+      <NextButton onClick={handleNextClick}>
         <RightArrow />
-      </Next>
+      </NextButton>
     </CarouselContainer>
   );
 };
@@ -79,7 +79,7 @@ const PreviousButton = styled.div`
   align-items: center;
   position: absolute;
   width: 3em;
-  height: 15em;
+  height: 100%;
   background-color: rgba(100, 100, 100, 0.25);
   z-index: 1;
 
@@ -87,6 +87,10 @@ const PreviousButton = styled.div`
     background-color: rgba(100, 100, 100, 0.5);
     transform: scale(1.25);
     transition: 0.2s all ease-out;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    width: 1.8em;
   }
 `;
 
@@ -96,9 +100,13 @@ const LeftArrow = styled.div`
   border-top: 2em solid transparent;
   border-bottom: 2em solid transparent;
   border-right: 1.5em solid black;
+
+  @media only screen and (max-device-width: 480px) {
+    border-right: 1em solid black;
+  }
 `;
 
-const Next = styled.div`
+const NextButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +114,7 @@ const Next = styled.div`
   top: 0;
   right: 0;
   width: 3em;
-  height: 15em;
+  height: 100%;
   background-color: rgba(100, 100, 100, 0.25);
   z-index: 1;
 
@@ -114,6 +122,10 @@ const Next = styled.div`
     background-color: rgba(100, 100, 100, 0.5);
     transform: scale(1.25);
     transition: 0.2s all ease-out;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    width: 1.8em;
   }
 `;
 
@@ -123,6 +135,10 @@ const RightArrow = styled.div`
   border-top: 2em solid transparent;
   border-bottom: 2em solid transparent;
   border-left: 1.5em solid black;
+
+  @media only screen and (max-device-width: 480px) {
+    border-left: 1em solid black;
+  }
 `;
 
 const CarouselContent = styled.div.attrs((props) => ({
@@ -138,26 +154,38 @@ const CarouselContent = styled.div.attrs((props) => ({
   height: 100%;
 
   @keyframes next {
-    from { transform: translateX(45em); }
+    from { transform: translateX(28em); }
     to { transform: translateX(none); }
   }
 
   @keyframes previous {
-    from { transform: translateX(-45em); }
+    from { transform: translateX(-28em); }
     to { transform: translateX(none); }
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    left: -26em;
   }
 `;
 
 const CommentBox = styled.div`
   min-width: 29em;
   padding: 0.5em;
-  margin-right: 15em;
+  margin-right: 10em;
   border-radius: 0.5em;
   background-color: beige;
+
+  @media only screen and (max-device-width: 480px) {
+    min-width: 17em;
+  }
 `;
 
 const Text = styled.div`
   white-space: pre-wrap;
+
+  @media only screen and (max-device-width: 480px) {
+    font-size: 10pt;
+  }
 `;
 
 const Rating = styled.div`

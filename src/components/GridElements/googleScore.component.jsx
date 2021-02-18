@@ -33,7 +33,7 @@ const ScoreContainer = styled.div`
       #1382aa
     );
 
-  @media only screen and (max-device-width: 1100px) {
+  @media only screen and (max-device-width: 480px) {
     display: none;
     grid-area: none;
   }
