@@ -39,8 +39,8 @@ const ComingSoon = styled.div`
   }
 
   @media only screen and (max-device-width: 480px) {
-    width: 33vw;
-    height: 33vw;
+    width: 33.33vw;
+    height: 33.33vw;
     font-size: 30pt;
   }
 `;
@@ -49,8 +49,8 @@ const Image = styled.img`
   width: 240px;
 
   @media only screen and (max-device-width: 480px) {
-    width: 33vw;
-    height: 33vw;
+    width: 33.33vw;
+    height: 33.33vw;
   }
 `;
 
@@ -66,8 +66,8 @@ position: relative;
   }
 
   @media only screen and (max-device-width: 480px) {
-    width: 33vw;
-    height: 33vw;
+    width: 33.33vw;
+    height: 33.33vw;
   }
 `;
 

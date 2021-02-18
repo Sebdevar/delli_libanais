@@ -91,6 +91,12 @@ const PreviousButton = styled.div`
 
   @media only screen and (max-device-width: 480px) {
     width: 1.8em;
+
+    &:hover {
+    background-color: rgba(100, 100, 100, 0.25);
+    transform: none;
+    transition: none;
+  }
   }
 `;
 
@@ -126,6 +132,11 @@ const NextButton = styled.div`
 
   @media only screen and (max-device-width: 480px) {
     width: 1.8em;
+
+    &:hover {
+    background-color: rgba(100, 100, 100, 0.25);
+    transform: none;
+    transition: none;
   }
 `;
 
@@ -164,15 +175,15 @@ const CarouselContent = styled.div.attrs((props) => ({
   }
 
   @media only screen and (max-device-width: 480px) {
-    left: -26em;
+    left: -120vw;
 
     @keyframes next {
-      from { transform: translateX(28em); }
+      from { transform: translateX(70vw); }
       to { transform: translateX(none); }
     }
 
     @keyframes previous {
-      from { transform: translateX(-28em); }
+      from { transform: translateX(-70vw); }
       to { transform: translateX(none); }
     }
   }
@@ -186,8 +197,9 @@ const CommentBox = styled.div`
   background-color: beige;
 
   @media only screen and (max-device-width: 480px) {
-    min-width: 17em;
-    margin-right: 10em;
+    min-width: 58vw;
+    margin-right: 10vw;
+    padding: 1vw;
   }
 `;
 

@@ -19,8 +19,8 @@ const Image = styled.img`
   width: 240px;
 
   @media only screen and (max-device-width: 480px) {
-    width: 33vw;
-    height: 33vw;
+    width: 33.33vw;
+    height: 33.33vw;
   }
 `;
 
@@ -38,8 +38,8 @@ const Link = styled.a`
   }
 
   @media only screen and (max-device-width: 480px) {
-    width: 33vw;
-    height: 33vw;
+    width: 33.33vw;
+    height: 33.33vw;
   }
 `;
 

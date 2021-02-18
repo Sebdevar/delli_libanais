@@ -48,7 +48,7 @@ const GridContainer = styled.div`
 
   @media only screen and (max-device-width: 480px) {
     width: 100vw;
-    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-columns: 33.33vw 33.33vw 33.33vw;
     grid-template-rows: repeat(7, 33vw) 100px;
     grid-template-areas:
       "banner banner banner"
