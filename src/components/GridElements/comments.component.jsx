@@ -154,29 +154,40 @@ const CarouselContent = styled.div.attrs((props) => ({
   height: 100%;
 
   @keyframes next {
-    from { transform: translateX(28em); }
+    from { transform: translateX(45em); }
     to { transform: translateX(none); }
   }
 
   @keyframes previous {
-    from { transform: translateX(-28em); }
+    from { transform: translateX(-45em); }
     to { transform: translateX(none); }
   }
 
   @media only screen and (max-device-width: 480px) {
     left: -26em;
+
+    @keyframes next {
+      from { transform: translateX(28em); }
+      to { transform: translateX(none); }
+    }
+
+    @keyframes previous {
+      from { transform: translateX(-28em); }
+      to { transform: translateX(none); }
+    }
   }
 `;
 
 const CommentBox = styled.div`
   min-width: 29em;
   padding: 0.5em;
-  margin-right: 10em;
+  margin-right: 15em;
   border-radius: 0.5em;
   background-color: beige;
 
   @media only screen and (max-device-width: 480px) {
     min-width: 17em;
+    margin-right: 10em;
   }
 `;
 
