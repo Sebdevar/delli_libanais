@@ -39,7 +39,7 @@ const StyledItem = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   width: 1fr;
-  grid-template-columns: auto auto;
+  grid-template-columns: 75% 25%;
   align-items: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.25);
