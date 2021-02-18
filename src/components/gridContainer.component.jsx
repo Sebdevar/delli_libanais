@@ -45,6 +45,28 @@ const GridContainer = styled.div`
     ". menu menu menu ."
     "comments comments comments comments comments"
     "footer footer footer footer footer";
+
+  @media only screen and (max-device-width: 480px) {
+    width: 100vw;
+    grid-template-columns: 33.33vw 33.33vw 33.33vw;
+    grid-template-rows: repeat(7, 33vw) 100px;
+    grid-template-areas:
+      "banner banner banner"
+      "links links links"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "menu menu menu"
+      "comments comments comments"
+      "footer footer footer";
+  }
 `;
 
 export default grid;

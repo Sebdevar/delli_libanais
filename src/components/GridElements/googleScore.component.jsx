@@ -32,6 +32,11 @@ const ScoreContainer = styled.div`
       #004497,
       #1382aa
     );
+
+  @media only screen and (max-device-width: 480px) {
+    display: none;
+    grid-area: none;
+  }
 `;
 
 const Score = styled.div`

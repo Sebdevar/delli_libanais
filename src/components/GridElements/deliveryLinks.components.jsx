@@ -37,13 +37,18 @@ const StyledGrid = styled.div`
   width: 100%;
   grid-template-columns: 33.33% 33.33% 33.33%;
   grid-auto-rows: 240px;
+
+  @media only screen and (max-device-width: 480px) {
+    font-size: 15pt;
+    grid-auto-rows: 33vw;
+  }
 `;
 
 const DeliveryLinks = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-grid-area: links;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: links;
 `;
 
 export default deliveryLinks;

@@ -26,6 +26,11 @@ const Category = styled.div`
   height: 50px;
   grid-column-start: 1;
   grid-column-end: 3;
+
+  @media only screen and (max-device-width: 480px) {
+    grid-column-start: none;
+    grid-column-end: none;
+  }
 `;
 
 const Note = styled.div`
@@ -36,6 +41,12 @@ const Note = styled.div`
   white-space: pre-wrap;
   grid-column-start: 1;
   grid-column-end: 3;
+
+  @media only screen and (max-device-width: 480px) {
+    grid-column-start: none;
+    grid-column-end: none;
+    font-size: 11pt;
+  }
 `;
 
 export default Assiettes;

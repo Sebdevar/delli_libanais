@@ -30,6 +30,12 @@ const StyledMenu = styled.div`
   grid-row-gap: 5px;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: min-content;
+
+  @media only screen and (max-device-width: 480px) {
+    grid-template-columns: none;
+    grid-column-gap: none;
+    display: block;
+  }
 `;
 
 export default MenuComponent;

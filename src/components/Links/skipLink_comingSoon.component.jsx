@@ -31,11 +31,27 @@ const ComingSoon = styled.div`
     top: 70px;
     color: #f3c600;
     text-shadow: 0 0 15px #0e92c2;
+
+    @media only screen and (max-device-width: 480px) {
+      left: 10px;
+      top: 40px;
+    }
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    width: 33.33vw;
+    height: 33.33vw;
+    font-size: 30pt;
   }
 `;
 
 const Image = styled.img`
-  width: 240px
+  width: 240px;
+
+  @media only screen and (max-device-width: 480px) {
+    width: 33.33vw;
+    height: 33.33vw;
+  }
 `;
 
 const NotLink = styled.div`
@@ -47,6 +63,11 @@ position: relative;
     transition: 0.2s all ease-out;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     z-index: 1000;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    width: 33.33vw;
+    height: 33.33vw;
   }
 `;
 
