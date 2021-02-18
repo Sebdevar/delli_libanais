@@ -43,6 +43,11 @@ const StyledItem = styled.div`
   align-items: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.25);
+
+  @media only screen and (max-device-width: 480px) {
+    margin-bottom: 5px;
+    font-size: 10pt;
+  }
 `;
 
 export default Item;

@@ -18,6 +18,10 @@ const deliveryLinks = () => (
 
 const Image = styled.img`
   width: 240px;
+  @media only screen and (max-device-width: 480px) {
+    width: 33vw;
+    height: 33vw;
+  }
 `;
 
 const Link = styled.a`
@@ -29,6 +33,11 @@ const Link = styled.a`
     transition: 0.2s all ease-out;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     z-index: 1000;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    width: 33vw;
+    height: 33vw;
   }
 `;
 

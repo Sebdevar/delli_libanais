@@ -47,6 +47,11 @@ const StyledImage = styled.img`
   overflow: hidden;
   height: 240px;
   width: 240px;
+
+  @media only screen and (max-device-width: 480px) {
+    display: none;
+    grid-area: none;
+  }
 `;
 
 const StyledFood = styled.div`

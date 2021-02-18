@@ -19,6 +19,12 @@ const Text = styled.div`
   text-shadow: 4px 4px 3.5px rgba(0, 0, 0, 0.3);
   font-family: 'Lateef', cursive;
   font-size: 25pt;
+
+  @media only screen and (max-device-width: 480px) {
+    font-size: 15pt;
+    transform: translate(-50%, 0);
+    text-shadow: 3px 3px 3.5px rgba(0, 0, 0, 0.25);
+  }
 `;
 
 const StyledImage = styled.img`

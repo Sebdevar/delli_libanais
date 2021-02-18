@@ -26,6 +26,11 @@ const StyledIframe = styled.iframe`
     transition: 0.2s all ease-out;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   }
+
+  @media only screen and (max-device-width: 480px) {
+    display: none;
+    grid-area: none;
+  }
 `;
 
 export default Address;
