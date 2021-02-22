@@ -1,0 +1,25 @@
+{
+  "short_name": "Delli Libanais",
+  "name": "Delli Libanais - Le meilleur shish à Québec",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "192.webp",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "512.webp",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
