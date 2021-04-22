@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import skipLogo from '../../images/SkipLogo.webp';
 
-const skipURL = 'https://www.skipthedishes.com/restaurant-libanais-lebourgneuf?utm_source=google&utm_medium=organic&utm_campaign=gpa';
+const skipURL = 'https://www.skipthedishes.com/restaurant-libanais-lebourgneuf?utm_source=proprietary&utm_medium=organic&utm_campaign=gpa';
 
 const deliveryLinks = () => (
   <Link
