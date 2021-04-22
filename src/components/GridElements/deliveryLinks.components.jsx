@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import DoordashLink from '../Links/doordashLink.component';
 import UberEatsLink from '../Links/uberEatsLink.component';
-import SkipLink from '../Links/skipLink_comingSoon.component';
+import SkipLink from '../Links/skipLink.component';
 
 function shuffle(array) {
   const output = array;
